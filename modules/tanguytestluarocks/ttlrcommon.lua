@@ -1,11 +1,11 @@
 local ttlrcommon = {}
 
 local function print_result()
-  return "my result"
+  print("my result")
 end
 
 function ttlrcommon.test()
-  local result = print_result()
+  print_result()
 end
 
 return ttlrcommon

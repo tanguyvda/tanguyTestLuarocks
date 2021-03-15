@@ -1,7 +1,7 @@
 package = "tanguyTestLuarocks"
 version = "0.1-1"
 source = {
-   url = "https://github.com/tanguyvda/"
+   url = "https://github.com/tanguyvda/tanguyTestLuarocks"
 }
 description = {
    summary = "tanguy spec file.",

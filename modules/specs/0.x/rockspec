@@ -1,8 +1,8 @@
 package = "tanguytestluarocks"
-version = "0.1-3"
+version = "0.2-1"
 source = {
    url = "git+https://github.com/tanguyvda/tanguyTestLuarocks",
-   tag = "0.1-3"
+   tag = "0.2-1"
 }
 description = {
    summary = "tanguy spec file.",
@@ -18,6 +18,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-     ttlrcommon = "tanguytestluarocks/ttlrcommon.lua",
+     ["tanguytestluarocks.ttlrcommon"] = "modules/tanguytestluarocks/ttlrcommon.lua",
    }
 }

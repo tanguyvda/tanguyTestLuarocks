@@ -1,0 +1,23 @@
+package = "tanguyTestLuarocks"
+version = "0.1-1"
+source = {
+   url = "https://github.com/tanguyvda/"
+}
+description = {
+   summary = "tanguy spec file.",
+   detailed = [[
+      this module is only here to help me
+      understand how to do a luarocks package
+   ]],
+   homepage = "http://...", -- We don't have one yet
+   license = "Apache 2.0" -- or whatever you like
+}
+dependencies = {
+   "lua >= 5.1, < 5.4"
+}
+build = {
+   type = "builtin",
+   modules = {
+     common = "tanguytestluarocks/ttlrcommon.lua",
+   }
+}
